@@ -1,0 +1,26 @@
+# Django #
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+media/
+
+# Python # 
+*.py[cod]
+*$py.class
+
+# Ignorar todos os __pycache__ em qualquer lugar
+**/__pycache__/
+
+# Environments 
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Arquivo específico (opcional, se ainda quiser)
+# app/__pycache__/urls.cpython-311.pyc
